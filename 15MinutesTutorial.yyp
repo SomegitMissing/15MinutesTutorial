@@ -24,6 +24,7 @@
   "name":"15MinutesTutorial",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
