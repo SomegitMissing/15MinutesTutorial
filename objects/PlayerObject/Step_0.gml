@@ -18,3 +18,10 @@ if place_meeting(x, y+1, GroundObject) {
 
 move_and_collide(speed_x, speed_y, GroundObject);
 
+if place_meeting(x, y, FlagObject) {
+	room_goto_next();
+}
+
+if place_meeting(x, y, SpikeObject) {
+	room_restart();
+}
