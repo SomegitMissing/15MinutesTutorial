@@ -28,6 +28,7 @@
     {"id":{"name":"PlayerObject","path":"objects/PlayerObject/PlayerObject.yy",},},
     {"id":{"name":"SpikeObject","path":"objects/SpikeObject/SpikeObject.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"BackgroundSprite","path":"sprites/BackgroundSprite/BackgroundSprite.yy",},},
     {"id":{"name":"FlagSprite","path":"sprites/FlagSprite/FlagSprite.yy",},},
     {"id":{"name":"GroundSprite","path":"sprites/GroundSprite/GroundSprite.yy",},},
     {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},},

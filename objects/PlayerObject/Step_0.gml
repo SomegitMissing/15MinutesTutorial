@@ -1,5 +1,12 @@
 speed_y = min(10, speed_y + 0.1);
 speed_x = 0;
+layer_effect_offset += 0.0003;
+fx_set_parameter(layer_effect, "g_DistortOffset", layer_effect_offset);
+if layer_effect_offset >= 1 {
+	layer_effect_offset -= 1;
+	show_debug_message("LOOP");
+}
+
 
 if keyboard_check(vk_left) {
 	speed_x = -1;
